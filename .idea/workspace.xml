@@ -1,0 +1,1130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e9af3b21-f612-478f-8bc3-1636f46c3ae2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/cms/entity/Help.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/cms/entity/HelpCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/cms/entity/MemberReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/cms/entity/PrefrenceArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/cms/entity/PrefrenceAreaProductRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/cms/entity/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/cms/entity/SubjectCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/cms/entity/SubjectComment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/cms/entity/SubjectProductRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/cms/entity/Topic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/cms/entity/TopicCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/cms/entity/TopicComment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/cms/service/HelpCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/cms/service/HelpService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/cms/service/MemberReportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/cms/service/PrefrenceAreaProductRelationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/cms/service/PrefrenceAreaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/cms/service/SubjectCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/cms/service/SubjectCommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/cms/service/SubjectProductRelationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/cms/service/SubjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/cms/service/TopicCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/cms/service/TopicCommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/cms/service/TopicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/entity/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/entity/AlbumPic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/entity/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/entity/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/entity/CommentReplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/entity/FeightTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/entity/MemberPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/entity/ProductAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/entity/ProductAttributeCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/entity/ProductAttributeValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/entity/ProductCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/entity/ProductCategoryAttributeRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/entity/ProductFullReduction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/entity/ProductLadder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/entity/ProductOperateLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/entity/ProductVertifyRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/entity/SkuStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/service/AlbumPicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/service/AlbumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/service/BrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/service/CommentReplayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/service/FeightTemplateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/service/MemberPriceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/service/ProductAttributeCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/service/ProductAttributeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/service/ProductAttributeValueService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/service/ProductCategoryAttributeRelationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/service/ProductCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/service/ProductFullReductionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/service/ProductLadderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/service/ProductOperateLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/service/ProductVertifyRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/pms/service/SkuStockService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/to/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/entity/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/entity/AdminLoginLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/entity/AdminPermissionRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/entity/AdminRoleRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/entity/GrowthChangeHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/entity/IntegrationChangeHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/entity/IntegrationConsumeSetting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/entity/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/entity/MemberLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/entity/MemberLoginLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/entity/MemberMemberTagRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/entity/MemberProductCategoryRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/entity/MemberReceiveAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/entity/MemberRuleSetting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/entity/MemberStatisticsInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/entity/MemberTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/entity/MemberTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/entity/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/entity/RolePermissionRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/service/AdminLoginLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/service/AdminPermissionRelationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/service/AdminRoleRelationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/service/GrowthChangeHistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/service/IntegrationChangeHistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/service/IntegrationConsumeSettingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/service/MemberLevelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/service/MemberLoginLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/service/MemberMemberTagRelationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/service/MemberProductCategoryRelationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/service/MemberReceiveAddressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/service/MemberRuleSettingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/service/MemberStatisticsInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/service/MemberTagService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/service/MemberTaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/service/PermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/service/RolePermissionRelationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/ums/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/validator/FlagValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/validator/FlagValidatorClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/vo/PageInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/vo/product/PmsBrandParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/vo/product/PmsProductAttributeCategoryItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/vo/product/PmsProductAttributeParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/vo/product/PmsProductCategoryParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/vo/product/PmsProductParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/vo/product/PmsProductQueryParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/vo/product/PmsProductResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/vo/product/ProductAttrInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/src/main/java/com/zrq/gmall/api/vo/product/ProductCategoryWithChildrenItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/META-INF/gmall-api.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/cms/entity/Help.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/cms/entity/HelpCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/cms/entity/MemberReport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/cms/entity/PrefrenceArea.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/cms/entity/PrefrenceAreaProductRelation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/cms/entity/Subject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/cms/entity/SubjectCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/cms/entity/SubjectComment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/cms/entity/SubjectProductRelation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/cms/entity/Topic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/cms/entity/TopicCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/cms/entity/TopicComment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/cms/service/HelpCategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/cms/service/HelpService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/cms/service/MemberReportService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/cms/service/PrefrenceAreaProductRelationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/cms/service/PrefrenceAreaService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/cms/service/SubjectCategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/cms/service/SubjectCommentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/cms/service/SubjectProductRelationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/cms/service/SubjectService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/cms/service/TopicCategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/cms/service/TopicCommentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/cms/service/TopicService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/entity/Album.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/entity/AlbumPic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/entity/Brand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/entity/Comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/entity/CommentReplay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/entity/FeightTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/entity/MemberPrice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/entity/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/entity/ProductAttribute.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/entity/ProductAttributeCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/entity/ProductAttributeValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/entity/ProductCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/entity/ProductCategoryAttributeRelation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/entity/ProductFullReduction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/entity/ProductLadder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/entity/ProductOperateLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/entity/ProductVertifyRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/entity/SkuStock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/service/AlbumPicService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/service/AlbumService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/service/BrandService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/service/CommentReplayService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/service/CommentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/service/FeightTemplateService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/service/MemberPriceService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/service/ProductAttributeCategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/service/ProductAttributeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/service/ProductAttributeValueService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/service/ProductCategoryAttributeRelationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/service/ProductCategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/service/ProductFullReductionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/service/ProductLadderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/service/ProductOperateLogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/service/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/service/ProductVertifyRecordService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/pms/service/SkuStockService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/to/CommonResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/entity/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/entity/AdminLoginLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/entity/AdminPermissionRelation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/entity/AdminRoleRelation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/entity/GrowthChangeHistory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/entity/IntegrationChangeHistory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/entity/IntegrationConsumeSetting.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/entity/Member.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/entity/MemberLevel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/entity/MemberLoginLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/entity/MemberMemberTagRelation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/entity/MemberProductCategoryRelation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/entity/MemberReceiveAddress.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/entity/MemberRuleSetting.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/entity/MemberStatisticsInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/entity/MemberTag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/entity/MemberTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/entity/Permission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/entity/RolePermissionRelation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/service/AdminLoginLogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/service/AdminPermissionRelationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/service/AdminRoleRelationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/service/AdminService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/service/GrowthChangeHistoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/service/IntegrationChangeHistoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/service/IntegrationConsumeSettingService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/service/MemberLevelService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/service/MemberLoginLogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/service/MemberMemberTagRelationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/service/MemberProductCategoryRelationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/service/MemberReceiveAddressService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/service/MemberRuleSettingService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/service/MemberService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/service/MemberStatisticsInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/service/MemberTagService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/service/MemberTaskService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/service/PermissionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/service/RolePermissionRelationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/ums/service/RoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/validator/FlagValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/validator/FlagValidatorClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/vo/PageInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/vo/product/PmsBrandParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/vo/product/PmsProductAttributeCategoryItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/vo/product/PmsProductAttributeParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/vo/product/PmsProductCategoryParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/vo/product/PmsProductParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/vo/product/PmsProductQueryParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/vo/product/PmsProductResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/vo/product/ProductAttrInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/target/classes/com/zrq/gmall/api/vo/product/ProductCategoryWithChildrenItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-api/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/GmallCmsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/config/GmallShardingJdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/mapper/HelpCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/mapper/HelpMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/mapper/MemberReportMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/mapper/PrefrenceAreaMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/mapper/PrefrenceAreaProductRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/mapper/SubjectCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/mapper/SubjectCommentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/mapper/SubjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/mapper/SubjectProductRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/mapper/TopicCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/mapper/TopicCommentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/mapper/TopicMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/mapper/xml/HelpCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/mapper/xml/HelpMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/mapper/xml/MemberReportMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/mapper/xml/PrefrenceAreaMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/mapper/xml/PrefrenceAreaProductRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/mapper/xml/SubjectCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/mapper/xml/SubjectCommentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/mapper/xml/SubjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/mapper/xml/SubjectProductRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/mapper/xml/TopicCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/mapper/xml/TopicCommentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/mapper/xml/TopicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/service/impl/HelpCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/service/impl/HelpServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/service/impl/MemberReportServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/service/impl/PrefrenceAreaProductRelationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/service/impl/PrefrenceAreaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/service/impl/SubjectCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/service/impl/SubjectCommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/service/impl/SubjectProductRelationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/service/impl/SubjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/service/impl/TopicCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/service/impl/TopicCommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/java/com/zrq/gmall/cms/service/impl/TopicServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/main/resources/sharding.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/test/java/com/zrq/gmall/cms/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/src/test/java/com/zrq/gmall/cms/GmallCmsApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/classes/com/zrq/gmall/cms/GmallCmsApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/classes/com/zrq/gmall/cms/config/GmallShardingJdbcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/classes/com/zrq/gmall/cms/mapper/HelpCategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/classes/com/zrq/gmall/cms/mapper/HelpMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/classes/com/zrq/gmall/cms/mapper/MemberReportMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/classes/com/zrq/gmall/cms/mapper/PrefrenceAreaMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/classes/com/zrq/gmall/cms/mapper/PrefrenceAreaProductRelationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/classes/com/zrq/gmall/cms/mapper/SubjectCategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/classes/com/zrq/gmall/cms/mapper/SubjectCommentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/classes/com/zrq/gmall/cms/mapper/SubjectMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/classes/com/zrq/gmall/cms/mapper/SubjectProductRelationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/classes/com/zrq/gmall/cms/mapper/TopicCategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/classes/com/zrq/gmall/cms/mapper/TopicCommentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/classes/com/zrq/gmall/cms/mapper/TopicMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/classes/com/zrq/gmall/cms/service/impl/HelpCategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/classes/com/zrq/gmall/cms/service/impl/HelpServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/classes/com/zrq/gmall/cms/service/impl/MemberReportServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/classes/com/zrq/gmall/cms/service/impl/PrefrenceAreaProductRelationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/classes/com/zrq/gmall/cms/service/impl/PrefrenceAreaServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/classes/com/zrq/gmall/cms/service/impl/SubjectCategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/classes/com/zrq/gmall/cms/service/impl/SubjectCommentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/classes/com/zrq/gmall/cms/service/impl/SubjectProductRelationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/classes/com/zrq/gmall/cms/service/impl/SubjectServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/classes/com/zrq/gmall/cms/service/impl/TopicCategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/classes/com/zrq/gmall/cms/service/impl/TopicCommentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/classes/com/zrq/gmall/cms/service/impl/TopicServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/classes/sharding.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/test-classes/com/zrq/gmall/cms/CodeGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-cms/target/test-classes/com/zrq/gmall/cms/GmallCmsApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-common/target/classes/META-INF/gmall-common.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/GmallPmsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/config/GmallShardingJdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/AlbumMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/AlbumPicMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/BrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/CommentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/CommentReplayMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/FeightTemplateMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/MemberPriceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/ProductAttributeCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/ProductAttributeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/ProductAttributeValueMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/ProductCategoryAttributeRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/ProductCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/ProductFullReductionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/ProductLadderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/ProductOperateLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/ProductVertifyRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/SkuStockMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/xml/AlbumMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/xml/AlbumPicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/xml/BrandMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/xml/CommentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/xml/CommentReplayMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/xml/FeightTemplateMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/xml/MemberPriceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/xml/ProductAttributeCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/xml/ProductAttributeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/xml/ProductAttributeValueMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/xml/ProductCategoryAttributeRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/xml/ProductCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/xml/ProductFullReductionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/xml/ProductLadderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/xml/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/xml/ProductOperateLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/xml/ProductVertifyRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/mapper/xml/SkuStockMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/service/impl/AlbumPicServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/service/impl/AlbumServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/service/impl/BrandServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/service/impl/CommentReplayServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/service/impl/CommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/service/impl/FeightTemplateServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/service/impl/MemberPriceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/service/impl/ProductAttributeCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/service/impl/ProductAttributeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/service/impl/ProductAttributeValueServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/service/impl/ProductCategoryAttributeRelationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/service/impl/ProductCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/service/impl/ProductFullReductionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/service/impl/ProductLadderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/service/impl/ProductOperateLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/service/impl/ProductVertifyRecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/java/com/zrq/gmall/pms/service/impl/SkuStockServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/main/resources/sharding.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/test/java/com/zrq/gmall/pms/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/test/java/com/zrq/gmall/pms/CodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/src/test/java/com/zrq/gmall/pms/GmallPmsApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/META-INF/gmall-pms.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/GmallPmsApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/config/GmallShardingJdbcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/AlbumMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/AlbumPicMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/BrandMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/CommentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/CommentReplayMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/FeightTemplateMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/MemberPriceMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/ProductAttributeCategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/ProductAttributeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/ProductAttributeValueMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/ProductCategoryAttributeRelationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/ProductCategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/ProductFullReductionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/ProductLadderMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/ProductMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/ProductOperateLogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/ProductVertifyRecordMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/SkuStockMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/xml/AlbumMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/xml/AlbumPicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/xml/BrandMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/xml/CommentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/xml/CommentReplayMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/xml/FeightTemplateMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/xml/MemberPriceMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/xml/ProductAttributeCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/xml/ProductAttributeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/xml/ProductAttributeValueMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/xml/ProductCategoryAttributeRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/xml/ProductCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/xml/ProductFullReductionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/xml/ProductLadderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/xml/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/xml/ProductOperateLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/xml/ProductVertifyRecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/mapper/xml/SkuStockMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/service/impl/AlbumPicServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/service/impl/AlbumServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/service/impl/BrandServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/service/impl/CommentReplayServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/service/impl/CommentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/service/impl/FeightTemplateServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/service/impl/MemberPriceServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/service/impl/ProductAttributeCategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/service/impl/ProductAttributeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/service/impl/ProductAttributeValueServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/service/impl/ProductCategoryAttributeRelationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/service/impl/ProductCategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/service/impl/ProductFullReductionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/service/impl/ProductLadderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/service/impl/ProductOperateLogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/service/impl/ProductServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/service/impl/ProductVertifyRecordServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/com/zrq/gmall/pms/service/impl/SkuStockServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/classes/sharding.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/test-classes/META-INF/gmall-pms.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/test-classes/com/zrq/gmall/pms/CodeGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/test-classes/com/zrq/gmall/pms/CodeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-pms/target/test-classes/com/zrq/gmall/pms/GmallPmsApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/GmallUmsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/config/GmallShardingJdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/AdminLoginLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/AdminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/AdminPermissionRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/AdminRoleRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/GrowthChangeHistoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/IntegrationChangeHistoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/IntegrationConsumeSettingMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/MemberLevelMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/MemberLoginLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/MemberMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/MemberMemberTagRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/MemberProductCategoryRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/MemberReceiveAddressMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/MemberRuleSettingMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/MemberStatisticsInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/MemberTagMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/MemberTaskMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/PermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/RolePermissionRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/xml/AdminLoginLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/xml/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/xml/AdminPermissionRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/xml/AdminRoleRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/xml/GrowthChangeHistoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/xml/IntegrationChangeHistoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/xml/IntegrationConsumeSettingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/xml/MemberLevelMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/xml/MemberLoginLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/xml/MemberMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/xml/MemberMemberTagRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/xml/MemberProductCategoryRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/xml/MemberReceiveAddressMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/xml/MemberRuleSettingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/xml/MemberStatisticsInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/xml/MemberTagMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/xml/MemberTaskMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/xml/PermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/xml/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/mapper/xml/RolePermissionRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/service/impl/AdminLoginLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/service/impl/AdminPermissionRelationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/service/impl/AdminRoleRelationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/service/impl/GrowthChangeHistoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/service/impl/IntegrationChangeHistoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/service/impl/IntegrationConsumeSettingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/service/impl/MemberLevelServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/service/impl/MemberLoginLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/service/impl/MemberMemberTagRelationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/service/impl/MemberProductCategoryRelationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/service/impl/MemberReceiveAddressServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/service/impl/MemberRuleSettingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/service/impl/MemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/service/impl/MemberStatisticsInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/service/impl/MemberTagServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/service/impl/MemberTaskServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/service/impl/PermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/service/impl/RolePermissionRelationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/java/com/zrq/gmall/ums/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/main/resources/sharding.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/test/java/com/zrq/gmall/ums/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/test/java/com/zrq/gmall/ums/CodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/src/test/java/com/zrq/gmall/ums/GmallUmsApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/META-INF/gmall-ums.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/GmallUmsApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/config/GmallShardingJdbcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/AdminLoginLogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/AdminMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/AdminPermissionRelationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/AdminRoleRelationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/GrowthChangeHistoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/IntegrationChangeHistoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/IntegrationConsumeSettingMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/MemberLevelMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/MemberLoginLogMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/MemberMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/MemberMemberTagRelationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/MemberProductCategoryRelationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/MemberReceiveAddressMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/MemberRuleSettingMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/MemberStatisticsInfoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/MemberTagMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/MemberTaskMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/PermissionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/RoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/RolePermissionRelationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/xml/AdminLoginLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/xml/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/xml/AdminPermissionRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/xml/AdminRoleRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/xml/GrowthChangeHistoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/xml/IntegrationChangeHistoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/xml/IntegrationConsumeSettingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/xml/MemberLevelMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/xml/MemberLoginLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/xml/MemberMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/xml/MemberMemberTagRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/xml/MemberProductCategoryRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/xml/MemberReceiveAddressMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/xml/MemberRuleSettingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/xml/MemberStatisticsInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/xml/MemberTagMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/xml/MemberTaskMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/xml/PermissionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/xml/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/mapper/xml/RolePermissionRelationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/service/impl/AdminLoginLogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/service/impl/AdminPermissionRelationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/service/impl/AdminRoleRelationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/service/impl/AdminServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/service/impl/GrowthChangeHistoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/service/impl/IntegrationChangeHistoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/service/impl/IntegrationConsumeSettingServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/service/impl/MemberLevelServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/service/impl/MemberLoginLogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/service/impl/MemberMemberTagRelationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/service/impl/MemberProductCategoryRelationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/service/impl/MemberReceiveAddressServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/service/impl/MemberRuleSettingServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/service/impl/MemberServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/service/impl/MemberStatisticsInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/service/impl/MemberTagServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/service/impl/MemberTaskServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/service/impl/PermissionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/service/impl/RolePermissionRelationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/com/zrq/gmall/ums/service/impl/RoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/classes/sharding.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/test-classes/META-INF/gmall-ums.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/test-classes/com/zrq/gmall/ums/CodeGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/test-classes/com/zrq/gmall/ums/CodeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-ums/target/test-classes/com/zrq/gmall/ums/GmallUmsApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/gmall-web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/GmallWebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/aop/BindingResultAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/cms/controller/HelpCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/cms/controller/HelpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/cms/controller/MemberReportController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/cms/controller/PrefrenceAreaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/cms/controller/PrefrenceAreaProductRelationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/cms/controller/SubjectCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/cms/controller/SubjectCommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/cms/controller/SubjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/cms/controller/SubjectProductRelationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/cms/controller/TopicCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/cms/controller/TopicCommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/cms/controller/TopicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/config/GmallSwagger2Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/config/PmsDataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/exception/GmallException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/pms/controller/AlbumController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/pms/controller/AlbumPicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/pms/controller/BrandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/pms/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/pms/controller/CommentReplayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/pms/controller/FeightTemplateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/pms/controller/MemberPriceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/pms/controller/PmsProductAttributeCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/pms/controller/PmsProductAttributeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/pms/controller/PmsSkuStockController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/pms/controller/ProductAttributeCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/pms/controller/ProductAttributeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/pms/controller/ProductAttributeValueController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/pms/controller/ProductCategoryAttributeRelationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/pms/controller/ProductCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/pms/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/pms/controller/ProductFullReductionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/pms/controller/ProductLadderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/pms/controller/ProductOperateLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/pms/controller/ProductVertifyRecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/pms/controller/SkuStockController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/ums/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/ums/controller/AdminLoginLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/ums/controller/AdminPermissionRelationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/ums/controller/AdminRoleRelationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/ums/controller/GrowthChangeHistoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/ums/controller/IntegrationChangeHistoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/ums/controller/IntegrationConsumeSettingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/ums/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/ums/controller/MemberLevelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/ums/controller/MemberLoginLogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/ums/controller/MemberMemberTagRelationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/ums/controller/MemberProductCategoryRelationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/ums/controller/MemberReceiveAddressController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/ums/controller/MemberRuleSettingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/ums/controller/MemberStatisticsInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/ums/controller/MemberTagController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/ums/controller/MemberTaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/ums/controller/PermissionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/ums/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/ums/controller/RolePermissionRelationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/ums/vo/UmsAdminLoginParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/ums/vo/UmsAdminParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/utils/FlagValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/utils/FlagValidatorClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web/utils/JwtTokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/test/java/com/zrq/gmall/web/GmallWebApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/src/test/java/com/zrq/gmall/web/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/META-INF/gmall-web.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/GmallWebApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/aop/BindingResultAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/cms/controller/HelpCategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/cms/controller/HelpController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/cms/controller/MemberReportController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/cms/controller/PrefrenceAreaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/cms/controller/PrefrenceAreaProductRelationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/cms/controller/SubjectCategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/cms/controller/SubjectCommentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/cms/controller/SubjectController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/cms/controller/SubjectProductRelationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/cms/controller/TopicCategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/cms/controller/TopicCommentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/cms/controller/TopicController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/config/GmallSwagger2Config.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/config/PmsDataSourceConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/exception/GmallException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/handler/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/pms/controller/AlbumController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/pms/controller/AlbumPicController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/pms/controller/BrandController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/pms/controller/CommentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/pms/controller/CommentReplayController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/pms/controller/FeightTemplateController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/pms/controller/MemberPriceController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/pms/controller/PmsProductAttributeCategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/pms/controller/PmsProductAttributeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/pms/controller/PmsSkuStockController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/pms/controller/ProductAttributeCategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/pms/controller/ProductAttributeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/pms/controller/ProductAttributeValueController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/pms/controller/ProductCategoryAttributeRelationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/pms/controller/ProductCategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/pms/controller/ProductController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/pms/controller/ProductFullReductionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/pms/controller/ProductLadderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/pms/controller/ProductOperateLogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/pms/controller/ProductVertifyRecordController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/pms/controller/SkuStockController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/ums/controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/ums/controller/AdminLoginLogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/ums/controller/AdminPermissionRelationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/ums/controller/AdminRoleRelationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/ums/controller/GrowthChangeHistoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/ums/controller/IntegrationChangeHistoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/ums/controller/IntegrationConsumeSettingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/ums/controller/MemberController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/ums/controller/MemberLevelController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/ums/controller/MemberLoginLogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/ums/controller/MemberMemberTagRelationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/ums/controller/MemberProductCategoryRelationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/ums/controller/MemberReceiveAddressController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/ums/controller/MemberRuleSettingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/ums/controller/MemberStatisticsInfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/ums/controller/MemberTagController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/ums/controller/MemberTaskController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/ums/controller/PermissionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/ums/controller/RoleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/ums/controller/RolePermissionRelationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/ums/vo/UmsAdminLoginParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/ums/vo/UmsAdminParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/utils/FlagValidator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/utils/FlagValidatorClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/com/zrq/gmall/web/utils/JwtTokenUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/test-classes/META-INF/gmall-web.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/test-classes/com/zrq/gmall/web/GmallWebApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gmall-web/target/test-classes/com/zrq/gmall/web/TestClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/mavenfile/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:\mavenfile\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xms1024m -Xmx2048m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal -Dfile.encoding=GB2312" />
+  </component>
+  <component name="ProjectId" id="1Z1B9GYEWKQJe3LwSYoZlrKBYuF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/gmall-web/src/main/java/com/zrq/gmall/web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.zrq.gmall.pms" />
+      <recent name="com.zrq.gmall" />
+      <recent name="com.zrq.gmall.api" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zrq.gmall.cms.config" />
+      <recent name="com.zrq.gmall.pms.config" />
+      <recent name="com.zrq.gmall.cms" />
+      <recent name="com.zrq.gmall.ums" />
+      <recent name="com.zrq.gmall.pms" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\ideaProject\guli_mall\gmall-parent\gmall-web\src\main\java\com\zrq\gmall\web\config" />
+      <recent name="H:\ideaProject\guli_mall\gmall-parent\gmall-web\src\main\java\com\zrq\gmall\api\web\utils" />
+      <recent name="H:\ideaProject\guli_mall\gmall-parent\gmall-api\src\main\java\com\zrq\gmall\api\validator" />
+      <recent name="H:\ideaProject\guli_mall\gmall-parent\gmall-cms\src\main\resources" />
+      <recent name="H:\ideaProject\guli_mall\gmall-parent\gmall-pms\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Compound.所有项目">
+    <configuration name="所有项目" type="CompoundRunConfigurationType">
+      <toRun name="GmallWebApplication" type="SpringBootApplicationConfigurationType" />
+      <toRun name="GmallCmsApplication" type="SpringBootApplicationConfigurationType" />
+      <toRun name="GmallPmsApplication" type="SpringBootApplicationConfigurationType" />
+      <toRun name="GmallUmsApplication" type="SpringBootApplicationConfigurationType" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType">
+      <toRun name="GmallWebApplication" type="SpringBootApplicationConfigurationType" />
+      <toRun name="GmallCmsApplication" type="SpringBootApplicationConfigurationType" />
+      <toRun name="GmallPmsApplication" type="SpringBootApplicationConfigurationType" />
+      <toRun name="GmallUmsApplication" type="SpringBootApplicationConfigurationType" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestClass.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gmall-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zrq.gmall.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zrq.gmall.web" />
+      <option name="MAIN_CLASS_NAME" value="com.zrq.gmall.web.TestClass" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallCmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-cms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zrq.gmall.cms.GmallCmsApplication" />
+      <option name="VM_PARAMETERS" value="-Xmx150m  -Xms50m" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallPmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-pms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zrq.gmall.pms.GmallPmsApplication" />
+      <option name="VM_PARAMETERS" value="-Xmx150m  -Xms50m" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallUmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-ums" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zrq.gmall.GmallUmsApplication" />
+      <option name="VM_PARAMETERS" value="-Xmx150m  -Xms50m" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gmall-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zrq.gmall.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zrq.gmall.web.GmallWebApplication" />
+      <option name="VM_PARAMETERS" value="-Xmx150m  -Xms50m" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="gmall-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zrq.gmall.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zrq.gmall.web.GmallWebApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Compound.所有项目" />
+      <item itemvalue="JUnit.TestClass.test1" />
+      <item itemvalue="Spring Boot.GmallPmsApplication" />
+      <item itemvalue="Spring Boot.GmallUmsApplication" />
+      <item itemvalue="Spring Boot.GmallCmsApplication" />
+      <item itemvalue="Spring Boot.GmallWebApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestClass.test1" />
+        <item itemvalue="Spring Boot.GmallWebApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.29938272" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9af3b21-f612-478f-8bc3-1636f46c3ae2" name="Default Changelist" comment="" />
+      <created>1583996566982</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583996566982</updated>
+      <workItem from="1583996572191" duration="2850000" />
+      <workItem from="1583999429305" duration="5832000" />
+      <workItem from="1584077378773" duration="724000" />
+      <workItem from="1584085526792" duration="14450000" />
+      <workItem from="1584108336175" duration="3238000" />
+      <workItem from="1584111835000" duration="150000" />
+      <workItem from="1584149588201" duration="11519000" />
+      <workItem from="1584165265563" duration="223000" />
+      <workItem from="1584165531133" duration="194000" />
+      <workItem from="1584165766234" duration="13663000" />
+      <workItem from="1584236630441" duration="11918000" />
+      <workItem from="1584250904722" duration="15227000" />
+      <workItem from="1584329412728" duration="10463000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="271" y="22" key="#GmallUmsApplication_(1)" timestamp="1584100711962">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="271" y="22" key="#GmallUmsApplication_(1)/0.0.1366.728@0.0.1366.728" timestamp="1584100711962" />
+    <state x="39" y="31" key="#Notifications" timestamp="1584165891578">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="39" y="31" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1584165891578" />
+    <state x="275" y="25" key="#Scopes" timestamp="1584156119013">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="25" key="#Scopes/0.0.1366.728@0.0.1366.728" timestamp="1584156119013" />
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584358299735">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1584358299735" />
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1584355437269">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1584355437269" />
+    <state x="202" y="295" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584165958004">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="202" y="295" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1584165958004" />
+    <state x="440" y="235" width="485" height="261" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584166067409">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="440" y="235" width="485" height="261" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1584166067409" />
+    <state x="440" y="255" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1584100534489">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="440" y="255" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.728@0.0.1366.728" timestamp="1584100534489" />
+    <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584242783292">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1584242783292" />
+    <state x="438" y="73" key="#xdebugger.evaluate" timestamp="1584280171950">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="438" y="73" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1584280171950" />
+    <state x="535" y="131" key="FileChooserDialogImpl" timestamp="1584360009932">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="535" y="131" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584360009932" />
+    <state width="907" height="261" key="GridCell.Tab.0.bottom" timestamp="1584360016535">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="907" height="261" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584360016535" />
+    <state width="907" height="261" key="GridCell.Tab.0.center" timestamp="1584360016535">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="907" height="261" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584360016535" />
+    <state width="907" height="261" key="GridCell.Tab.0.left" timestamp="1584360016535">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="907" height="261" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584360016535" />
+    <state width="907" height="261" key="GridCell.Tab.0.right" timestamp="1584360016535">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="907" height="261" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584360016535" />
+    <state width="907" height="261" key="GridCell.Tab.1.bottom" timestamp="1584360016536">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="907" height="261" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584360016536" />
+    <state width="907" height="261" key="GridCell.Tab.1.center" timestamp="1584360016536">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="907" height="261" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584360016536" />
+    <state width="907" height="261" key="GridCell.Tab.1.left" timestamp="1584360016536">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="907" height="261" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584360016536" />
+    <state width="907" height="261" key="GridCell.Tab.1.right" timestamp="1584360016536">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="907" height="261" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584360016536" />
+    <state width="907" height="261" key="GridCell.Tab.2.bottom" timestamp="1584360016537">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="907" height="261" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584360016537" />
+    <state width="907" height="261" key="GridCell.Tab.2.center" timestamp="1584360016536">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="907" height="261" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1584360016536" />
+    <state width="907" height="261" key="GridCell.Tab.2.left" timestamp="1584360016536">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="907" height="261" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1584360016536" />
+    <state width="907" height="261" key="GridCell.Tab.2.right" timestamp="1584360016536">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="907" height="261" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1584360016536" />
+    <state x="213" y="22" key="Maven.ArtifactSearchDialog" timestamp="1584243977089">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="22" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1584243977089" />
+    <state x="347" y="70" key="NewModule_or_Project.wizard" timestamp="1583998759785">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="347" y="70" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1583998759785" />
+    <state x="275" y="0" width="1079" height="708" key="SettingsEditor" timestamp="1584359837097">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="0" width="1079" height="708" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584359837097" />
+    <state x="404" y="105" width="696" height="524" key="StructurePopup" timestamp="1584355088151">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="404" y="105" width="696" height="524" key="StructurePopup/0.0.1366.728@0.0.1366.728" timestamp="1584355088151" />
+    <state width="498" height="445" key="SwitcherDM" timestamp="1584350153626">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="445" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1584350153626" />
+    <state x="477" y="145" key="chooseDestDirectoryDialog" timestamp="1584277603464">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="477" y="145" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1584277603464" />
+    <state x="422" y="98" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584101050809">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="422" y="98" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1584101050809" />
+    <state x="186" y="103" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1584350624629">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="103" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1584350624629" />
+    <state x="0" y="87" key="new project wizard" timestamp="1584154733787">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="87" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1584154733787" />
+    <state x="365" y="44" width="672" height="678" key="search.everywhere.popup" timestamp="1584348635218">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="365" y="44" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1584348635218" />
+    <state x="472" y="57" key="spring file set editor" timestamp="1583999251338">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="472" y="57" key="spring file set editor/0.0.1366.728@0.0.1366.728" timestamp="1583999251338" />
+  </component>
+  <component name="ZooKeeperConfig">
+    <option name="host" value="192.168.139.128" />
+    <option name="port" value="2181" />
+    <option name="charset" value="UTF-8" />
+    <option name="whitePaths" value="" />
+    <option name="enabled" value="true" />
+    <option name="tooltip" value="true" />
+  </component>
+</project>
